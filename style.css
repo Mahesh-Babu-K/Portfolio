@@ -119,6 +119,10 @@ span {
     line-height: 1;
 }
 
+h1 span {
+  display: inline; 
+}
+
 .home-content h3 {
     font-size: 3.2rem;
     margin-bottom: 1.5rem;
@@ -332,7 +336,7 @@ span {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 40%;
+        width: 50%;
         background: rgba(0, 0, 0, 0.8);
         border-left: 3px solid var(--main-color);
         backdrop-filter: blur(20px);
@@ -431,6 +435,11 @@ span {
 
     .home-content h1 {
         font-size: 3.5rem;
+    }
+
+    h1 span {
+        display: block;
+        width: 100%; 
     }
 
     .home-content h3 {

@@ -1411,10 +1411,6 @@ h1 span {
 }
 
 @media only screen and (max-width: 380px) {
-    .projects-title {
-        font-size: 2rem;
-    }
-
     .overlay-content {
         padding: 10px;
     }
